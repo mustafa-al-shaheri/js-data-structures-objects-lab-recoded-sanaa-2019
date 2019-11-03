@@ -2,7 +2,6 @@
 
 let driver = {
   name:'Mustafa'
-<<<<<<< HEAD
 
 };
 
@@ -25,14 +24,3 @@ function destructivelyDeleteFromDriverByKey(driver,key) {
   return driver;
 
 }
-=======
-  
-};
-const key = "hello";
-const value= "eman"
- function updateDriverWithKeyAndValue(driver, key, value){
-   newObj=Object.assign({},driver);
-   newObj[key]=value;
-   return newObj;
- }
->>>>>>> 0acf637230eba796415655182a98a66c477b5e3a
